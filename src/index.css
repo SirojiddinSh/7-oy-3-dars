@@ -1,4 +1,4 @@
- {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,4 +9,24 @@
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 24px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #514b82;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.5s;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn:hover {
+    opacity: 0.8;
 }
